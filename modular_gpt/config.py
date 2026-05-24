@@ -4,7 +4,7 @@ config = {
 
     "d_model": 128,
 
-    "num_heads": 4,
+    "num_heads": 4, 
 
     "n_layers": 4,
 
@@ -12,7 +12,9 @@ config = {
 
     "batch_size": 1,
 
-    "attention_type": "sliding_window",
+    "attention_type": "standard",
+
+    "window_size": 128,
 
     "pos_encoding": "learned",
 
