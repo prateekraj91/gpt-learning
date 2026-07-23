@@ -1,12 +1,32 @@
-# Environments
-torch/
-venv/
-env/
-
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
+*.pyd
 
-# OS
+# Virtual environments
+venv/
+.env
+.env.*
+
+# W&B
+wandb/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
 .DS_Store
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Build
+dist/
+build/
+
+# Cache
+.cache/
