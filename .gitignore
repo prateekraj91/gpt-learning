@@ -30,3 +30,9 @@ build/
 
 # Cache
 .cache/
+
+# Virtual environments
+venv/
+torch/
+.env
+.env.*
